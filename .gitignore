@@ -12,6 +12,8 @@ ch2/WebbContent/META-INF
 ch1/.settings
 ch2/.settings
 .jsdtscope
+*/.gitignore
+*/WebContent/META-INF
 
 
 

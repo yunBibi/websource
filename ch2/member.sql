@@ -4,10 +4,13 @@ create table member(
 	password varchar2(20) not null,
 	name nvarchar2(10) not null,
 	gender nvarchar2(2) not null,
-	emain varchar2(50) not null
-	
+	email varchar2(50) not null
 );
 
 insert into member values('hongq123', 'hong123@','홍길동','남','hong123@gmail.com');
 
 select * from member where userid='hong' and password='hong';
+
+drop table member;
+
+select * from member;
