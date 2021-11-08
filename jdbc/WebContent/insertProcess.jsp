@@ -31,7 +31,7 @@
 	// db작업 결과에 따라 페이지 이동
 	if(insertFlag){ // 입력 성공
 		JdbcUtil.commit(con);
-		response.sendRedirect("index.jsp");
+		response.sendRedirect("allProcess.jsp");
 		
 	}else{ // 입력 실패
 		JdbcUtil.rollback(con);

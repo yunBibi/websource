@@ -14,3 +14,19 @@ select * from member where userid='hong' and password='hong';
 drop table member;
 
 select * from member;
+
+-- 비밀번호 변경
+update MEMBER set password='' where userid='' and password='';
+
+
+
+
+
+
+
+
+
+
+
+
+
